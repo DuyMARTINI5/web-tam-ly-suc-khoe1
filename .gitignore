@@ -21,3 +21,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Bỏ qua thư mục node_modules
+node_modules/
+
+# Bỏ qua file lock
+package-lock.json
+yarn.lock
+
+# Bỏ qua các tệp môi trường
+.env
+
+# Tệp tạm thời hoặc không cần thiết
+.vscode/
+.vs/
